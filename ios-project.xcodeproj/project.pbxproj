@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB6483C1DB585F2004B4C4A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6483B1DB585F2004B4C4A /* Player.swift */; };
+		3CB6483E1DB58625004B4C4A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6483D1DB58625004B4C4A /* File.swift */; };
 		7A0A33B41DB16D3000C2F2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A33B31DB16D3000C2F2D1 /* AppDelegate.swift */; };
 		7A0A33B61DB16D3000C2F2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A33B51DB16D3000C2F2D1 /* ViewController.swift */; };
 		7A0A33B91DB16D3000C2F2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A33B71DB16D3000C2F2D1 /* Main.storyboard */; };
@@ -14,8 +16,6 @@
 		7A0A33BE1DB16D3000C2F2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0A33BC1DB16D3000C2F2D1 /* LaunchScreen.storyboard */; };
 		7A0A33C91DB16D3100C2F2D1 /* ios_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A33C81DB16D3100C2F2D1 /* ios_projectTests.swift */; };
 		7A0A33D41DB16D3100C2F2D1 /* ios_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A33D31DB16D3100C2F2D1 /* ios_projectUITests.swift */; };
-		A90B965E1DB56DBD00ACD756 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B965D1DB56DBD00ACD756 /* Profile.swift */; };
-		A90B96601DB5740500ACD756 /* ProfileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B965F1DB5740500ACD756 /* ProfileTest.swift */; };
 		7A6D0C2A1DB56F5E00CE586E /* SkillsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D0C291DB56F5E00CE586E /* SkillsTest.swift */; };
 		7A8704701DB17D4A009C6A6A /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87046F1DB17D4A009C6A6A /* Skill.swift */; };
 		7A8704741DB17D7B009C6A6A /* ZoomGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8704731DB17D7B009C6A6A /* ZoomGrid.swift */; };
@@ -24,8 +24,10 @@
 		921F0EB21DB17AD500C747D8 /* Lobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921F0EB01DB17AD500C747D8 /* Lobby.swift */; };
 		A00A5D0A1DB42999009E9E16 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A5D091DB42999009E9E16 /* Map.swift */; };
 		A00A5D0C1DB429AC009E9E16 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A5D0B1DB429AC009E9E16 /* Tile.swift */; };
-		D735D6B31DB575A300876261 /* TileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735D6B21DB575A300876261 /* TileTest.swift */; };
+		A90B965E1DB56DBD00ACD756 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B965D1DB56DBD00ACD756 /* Profile.swift */; };
+		A90B96601DB5740500ACD756 /* ProfileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B965F1DB5740500ACD756 /* ProfileTest.swift */; };
 		BC0462861DB56F3E00C0D879 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0462851DB56F3E00C0D879 /* MapTests.swift */; };
+		D735D6B31DB575A300876261 /* TileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D735D6B21DB575A300876261 /* TileTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CB6483B1DB585F2004B4C4A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3CB6483D1DB58625004B4C4A /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		7A0A33B01DB16D3000C2F2D1 /* ios-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A33B31DB16D3000C2F2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A0A33B51DB16D3000C2F2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +63,6 @@
 		7A0A33CF1DB16D3100C2F2D1 /* ios-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A0A33D31DB16D3100C2F2D1 /* ios_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_projectUITests.swift; sourceTree = "<group>"; };
 		7A0A33D51DB16D3100C2F2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A90B965D1DB56DBD00ACD756 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		A90B965F1DB5740500ACD756 /* ProfileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTest.swift; sourceTree = "<group>"; };
 		7A6D0C291DB56F5E00CE586E /* SkillsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsTest.swift; sourceTree = "<group>"; };
 		7A87046F1DB17D4A009C6A6A /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		7A8704731DB17D7B009C6A6A /* ZoomGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomGrid.swift; sourceTree = "<group>"; };
@@ -68,8 +70,10 @@
 		921F0EB01DB17AD500C747D8 /* Lobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lobby.swift; sourceTree = "<group>"; };
 		A00A5D091DB42999009E9E16 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		A00A5D0B1DB429AC009E9E16 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		D735D6B21DB575A300876261 /* TileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTest.swift; sourceTree = "<group>"; };
+		A90B965D1DB56DBD00ACD756 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A90B965F1DB5740500ACD756 /* ProfileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTest.swift; sourceTree = "<group>"; };
 		BC0462851DB56F3E00C0D879 /* MapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTests.swift; sourceTree = "<group>"; };
+		D735D6B21DB575A300876261 /* TileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 				A00A5D091DB42999009E9E16 /* Map.swift */,
 				A00A5D0B1DB429AC009E9E16 /* Tile.swift */,
 				921F0EB01DB17AD500C747D8 /* Lobby.swift */,
+				3CB6483B1DB585F2004B4C4A /* Player.swift */,
 			);
 			path = "ios-project";
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				7B2D5A741DB56DFA00F76A7E /* lobbyTest.swift */,
 				D735D6B21DB575A300876261 /* TileTest.swift */,
 				BC0462851DB56F3E00C0D879 /* MapTests.swift */,
+				3CB6483D1DB58625004B4C4A /* File.swift */,
 			);
 			path = "ios-projectTests";
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				A00A5D0A1DB42999009E9E16 /* Map.swift in Sources */,
 				7A0A33B41DB16D3000C2F2D1 /* AppDelegate.swift in Sources */,
 				A00A5D0C1DB429AC009E9E16 /* Tile.swift in Sources */,
+				3CB6483C1DB585F2004B4C4A /* Player.swift in Sources */,
 				921F0EB11DB17AD500C747D8 /* Lobby.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +328,7 @@
 				BC0462861DB56F3E00C0D879 /* MapTests.swift in Sources */,
 				7A0A33C91DB16D3100C2F2D1 /* ios_projectTests.swift in Sources */,
 				A90B96601DB5740500ACD756 /* ProfileTest.swift in Sources */,
+				3CB6483E1DB58625004B4C4A /* File.swift in Sources */,
 				D735D6B31DB575A300876261 /* TileTest.swift in Sources */,
 				7A6D0C2A1DB56F5E00CE586E /* SkillsTest.swift in Sources */,
 			);
